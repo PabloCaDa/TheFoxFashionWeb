@@ -13,7 +13,6 @@ body {
 header {
     height: 90px;
     background: rgb(26, 28, 41);
-    padding-top:
 }
 
 home section {
@@ -35,9 +34,10 @@ a {
 }
 
 #portada {
-    height: 1035px;
+/*    height: 1035px;*/
     background: url(../IMG/bg_header.jpg);
     padding-top: 35px;
+    padding-bottom: 350px;
 }
 
 
@@ -814,6 +814,11 @@ hr{
     border: 1px solid rgb(161, 177, 188);
     background: rgb(161, 177, 188);
     flex:1;
+}
+
+
+html{
+    zoom:90%;
 }
 
 
