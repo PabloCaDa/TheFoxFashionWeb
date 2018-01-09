@@ -178,6 +178,25 @@ footer {
 
 /*-------HEADER-------*/
 
+header .menu{
+    display:flex;
+    justify-content: space-between;
+}
+
+header .submenu--left{
+    width:560px;
+}
+
+header .submenu--left ul li input{
+    width:370px;
+    height: 45px;
+}
+
+header .submenu--right{
+    width:560px;
+}
+
+
 header ul {
     height: 90px;
     display: flex;
@@ -703,7 +722,7 @@ img[src="../IMG/Fashion.png"] {
     background: rgb(255, 102, 122);
     font-size: 16px;
     box-sizing: border-box;
-    color: rgb(161, 177, 188);
+    color: #fff;
 }
 
 /*--------SAYTO------*/
