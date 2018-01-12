@@ -559,7 +559,13 @@ img[src="../IMG/Fashion.png"] {
 /*----------FOXNEWS----------*/
 
 #foxnews {
-    background: url(../IMG/foxnews_bg.png);
+    background: #05072e; /* todo: image */
+    background: url(../IMG/foxnews_bg.png) no-repeat center;
+/*    min-height: 500px;*/
+/*    height: 100%;*/
+/*	background-size: 100%;*/
+    padding:100px;
+
 }
 
 #foxnews .contenedor {
@@ -580,9 +586,57 @@ img[src="../IMG/Fashion.png"] {
 }
 
 #foxnews .contenedor .cajon {
-    background: red;
+    width:100%;
+/*
     width: 570px;
     height: 357px;
+*/
+
+}
+
+#foxnews .contenedor .cajon div{
+    padding: 20px;
+	align-self: stretch;
+	margin: 1px;
+}
+
+#foxnews .contenedor .cajon div span{
+
+	position: absolute;
+	right: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    top: 12px;
+
+}
+
+#foxnews .contenedor .cajon .cajon_titulo{
+    background: #202346;
+	font-size: 1.1em;
+	font-weight: 700;
+	position: relative;
+	cursor: pointer;
+}
+
+#foxnews .contenedor .cajon .cajon_titulo:hover {
+	background: #ecf0f1;
+	color: #05072e;
+}
+
+#foxnews .contenedor .cajon .cajon_contenido{
+    line-height: 1.5em;
+	background: #202346;
+	color: #a1b1bc;
+	display: none;
+}
+
+#foxnews .contenedor .cajon .cajon_contenido:hover {
+	background: #ecf0f1;
+	color: #05072e;
+}
+
+#foxnews .contenedor .cajon .cajon_titulo:hover + .cajon_contenido {
+	display: block;
 }
 
 #foxnews .contenedor .texto--rosa {
@@ -591,6 +645,11 @@ img[src="../IMG/Fashion.png"] {
 
 #foxnews .contenedor i {
     margin-left: 10px;
+}
+
+#foxnews .contenedor a{
+    text-decoration: none;
+    color: rgb(255, 102, 122);
 }
 
 /*-----------LATESTNEWS-----*/
